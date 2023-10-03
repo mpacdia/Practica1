@@ -7,6 +7,7 @@ TagManager:
   - naranja
   - luna
   - obstaculo
+  - fondo
   layers:
   - Default
   - TransparentFX

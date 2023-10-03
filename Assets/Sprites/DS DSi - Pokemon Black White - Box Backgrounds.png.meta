@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 7d4d4ce7e5b4a304499e5c293d206aca
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Black White - Box Backgrounds_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 907
+        width: 167
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af17b8fdbbfbd7418b12d9cd06ecd37
+      internalID: -673249283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Black White - Box Backgrounds_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 907
+        width: 167
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cad212f5948b234ebff47c9be8c92e4
+      internalID: 752287845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Black White - Box Backgrounds_2
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 907
+        width: 167
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e535e26eeeda04a9b8df5264bdecb2
+      internalID: 871813286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Black White - Box Backgrounds_3
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 907
+        width: 167
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b49d4ce34d60846ace5ff7f58f712f
+      internalID: 328646415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Black White - Box Backgrounds_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 742
+        width: 167
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738270b3bacb4ad44992a479a794d49c
+      internalID: 1954393630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Black White - Box Backgrounds_5
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 742
+        width: 167
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354dad2cafc0d7a469f13053a709a641
+      internalID: -481289463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Black White - Box Backgrounds_6
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 742
+        width: 167
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f8dad858756df4d88d7cbcdcc97c2a
+      internalID: -203535117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Black White - Box Backgrounds_7
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 742
+        width: 167
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d66406561387a4094998d6d9fb6f83
+      internalID: -2052191701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Black White - Box Backgrounds_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 577
+        width: 167
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0150007b4244745af7c725db5b788c
+      internalID: -1429750691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Black White - Box Backgrounds_9
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 577
+        width: 167
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d284323ce59c8194f87ef012663db27a
+      internalID: 2117324850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Black White - Box Backgrounds_10
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 577
+        width: 167
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfabcc442118cd41a9997ebd57d1f91
+      internalID: -800125431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Black White - Box Backgrounds_11
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 577
+        width: 167
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6797a16573462e545b4dd3d684870372
+      internalID: -573088184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Black White - Box Backgrounds_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 412
+        width: 167
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2628e8193d76a5644aee75639d38b103
+      internalID: -907468508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Black White - Box Backgrounds_13
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 412
+        width: 167
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df145b47a5085b42bc3b7feeae5b9bf
+      internalID: -962426977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Black White - Box Backgrounds_14
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 412
+        width: 167
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea40d4a57a16bc479e70aa7b2fdd8ef
+      internalID: -864568736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Black White - Box Backgrounds_15
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 412
+        width: 167
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc669ec134276e40a081d02902b7413
+      internalID: 927084180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Black White - Box Backgrounds_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 247
+        width: 167
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7b97b263d4b384a82c12ca1b2ecd4d
+      internalID: -1732944578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Black White - Box Backgrounds_17
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 247
+        width: 167
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7067009e8cca542458ad7b73d8cd4f8f
+      internalID: 1753840327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Black White - Box Backgrounds_18
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 247
+        width: 167
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d941ccf826e70f844bb264a84ab342a2
+      internalID: -446796469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Black White - Box Backgrounds_19
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 247
+        width: 167
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497f64b2f67adcb468e7c3afd7921923
+      internalID: 1286985512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Black White - Box Backgrounds_20
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 82
+        width: 167
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d862a2d3ae1f60a489a09570ccf9fd33
+      internalID: 1767263551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Black White - Box Backgrounds_21
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 82
+        width: 167
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc4af7adb72e5e41b62d0ed1b4f122d
+      internalID: 2102305135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Black White - Box Backgrounds_22
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 82
+        width: 167
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ce68150e8c1c14784b91ae24c748c8
+      internalID: 1903213582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Black White - Box Backgrounds_23
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 82
+        width: 167
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8609a82c9669da4eb433bdff9473073
+      internalID: -1950339143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DS DSi - Pokemon Black White - Box Backgrounds_0: -673249283
+      DS DSi - Pokemon Black White - Box Backgrounds_1: 752287845
+      DS DSi - Pokemon Black White - Box Backgrounds_10: -800125431
+      DS DSi - Pokemon Black White - Box Backgrounds_11: -573088184
+      DS DSi - Pokemon Black White - Box Backgrounds_12: -907468508
+      DS DSi - Pokemon Black White - Box Backgrounds_13: -962426977
+      DS DSi - Pokemon Black White - Box Backgrounds_14: -864568736
+      DS DSi - Pokemon Black White - Box Backgrounds_15: 927084180
+      DS DSi - Pokemon Black White - Box Backgrounds_16: -1732944578
+      DS DSi - Pokemon Black White - Box Backgrounds_17: 1753840327
+      DS DSi - Pokemon Black White - Box Backgrounds_18: -446796469
+      DS DSi - Pokemon Black White - Box Backgrounds_19: 1286985512
+      DS DSi - Pokemon Black White - Box Backgrounds_2: 871813286
+      DS DSi - Pokemon Black White - Box Backgrounds_20: 1767263551
+      DS DSi - Pokemon Black White - Box Backgrounds_21: 2102305135
+      DS DSi - Pokemon Black White - Box Backgrounds_22: 1903213582
+      DS DSi - Pokemon Black White - Box Backgrounds_23: -1950339143
+      DS DSi - Pokemon Black White - Box Backgrounds_3: 328646415
+      DS DSi - Pokemon Black White - Box Backgrounds_4: 1954393630
+      DS DSi - Pokemon Black White - Box Backgrounds_5: -481289463
+      DS DSi - Pokemon Black White - Box Backgrounds_6: -203535117
+      DS DSi - Pokemon Black White - Box Backgrounds_7: -2052191701
+      DS DSi - Pokemon Black White - Box Backgrounds_8: -1429750691
+      DS DSi - Pokemon Black White - Box Backgrounds_9: 2117324850
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
