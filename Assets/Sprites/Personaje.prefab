@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 52609639663952314}
   - component: {fileID: 52609639663952317}
   - component: {fileID: 52609639663952319}
-  - component: {fileID: 52609639663952316}
-  - component: {fileID: 52609639663952318}
+  - component: {fileID: 3273410307543385351}
+  - component: {fileID: 5884527774080605276}
   m_Layer: 0
   m_Name: Personaje
   m_TagString: personaje
@@ -125,7 +125,19 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1.28
---- !u!114 &52609639663952316
+--- !u!114 &3273410307543385351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52609639663952313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7d38477c9f94244bd10c7060a79519, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5884527774080605276
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -139,15 +151,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movX: 0
   movY: 0
---- !u!114 &52609639663952318
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 52609639663952313}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c7d38477c9f94244bd10c7060a79519, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  contadorNaranjas: {fileID: 0}
+  naranja0: {fileID: 21300000, guid: ec5633c0a449d0e4f9a9eb4e96e7cfbe, type: 3}
+  naranja1: {fileID: -2000204063, guid: df43b8a6ae3a49c41ad8423ffbd03724, type: 3}
+  naranja2: {fileID: 555527326, guid: df43b8a6ae3a49c41ad8423ffbd03724, type: 3}
+  naranja3: {fileID: 2087192811, guid: df43b8a6ae3a49c41ad8423ffbd03724, type: 3}

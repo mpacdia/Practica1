@@ -8,7 +8,7 @@ public class moverPersonaje : MonoBehaviour
     public float movX, movY;
     Rigidbody2D rb;
 
-    private int naranjas = 0;
+    public int gestorNaranjas = 0;
 
     [Header("CONTADOR NARANJAS")]
     [SerializeField] private GameObject contadorNaranjas;
@@ -34,27 +34,48 @@ public class moverPersonaje : MonoBehaviour
         rb.velocity = vector * 15;
     }
 
-    private void contadorNaranjas(int naranjas)
+    // Función para agarrar una naranja
+    public void AgarrarNaranja()
     {
-        if (naranjas == 0)
+        gestorNaranjas++; // Incrementa el contador de naranjas
+        actualizarContadorNaranjas(); // Actualiza la visualización del contador
+        Destroy(GameObject.FindGameObjectWithTag("Naranja")); // Destruye el objeto de la naranja agarrada
+    }
+
+
+    // Función para actualizar la visualización del contador de naranjas
+    private void actualizarContadorNaranjas()
+    {
+        if (gestorNaranjas == 0)
         {
             contadorNaranjas.GetComponent<Image>().sprite = naranja0;
         }
-
-        if (naranjas == 1)
+        else if (gestorNaranjas == 1)
         {
             contadorNaranjas.GetComponent<Image>().sprite = naranja1;
         }
-
-
-        if (naranjas == 2)
+        else if (gestorNaranjas == 2)
         {
-            contadorNaranjas.GetComponent<Image>().sprite = naranja2
+            contadorNaranjas.GetComponent<Image>().sprite = naranja2;
         }
-
-        if (naranjas == 3
+        else if (gestorNaranjas == 3)
         {
-            contadorNaranjas.GetComponent<Image>().sprite = naranja3
+            contadorNaranjas.GetComponent<Image>().sprite = naranja3;
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("personaje") && gestorNaranjas < 3)
+        {
+            if (gestorNaranjas == 3)
+            {
+                Debug.Log("Fin del juego :)");
+            }
+            else
+            {
+                Debug.Log("Recoge más Naranjas");
+            }
         }
     }
 }

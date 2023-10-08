@@ -277,6 +277,10 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1476525778602277817, guid: f0b54bac3c5ec1f40a834959f0447192, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2293928394377475216, guid: f0b54bac3c5ec1f40a834959f0447192, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -320,14 +324,6 @@ PrefabInstance:
     - target: {fileID: 2293928394377475216, guid: f0b54bac3c5ec1f40a834959f0447192, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Radius
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_IsTrigger
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0b54bac3c5ec1f40a834959f0447192, type: 3}
@@ -598,7 +594,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6.3864617
+  orthographic size: 7.018086
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1972,22 +1968,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 52609639663952316, guid: 52d28e8061e9c6a488de31183133aaf8, type: 3}
-      propertyPath: naranja0
-      value: 
-      objectReference: {fileID: 21300000, guid: ec5633c0a449d0e4f9a9eb4e96e7cfbe, type: 3}
-    - target: {fileID: 52609639663952316, guid: 52d28e8061e9c6a488de31183133aaf8, type: 3}
-      propertyPath: naranja1
-      value: 
-      objectReference: {fileID: -2000204063, guid: df43b8a6ae3a49c41ad8423ffbd03724, type: 3}
-    - target: {fileID: 52609639663952316, guid: 52d28e8061e9c6a488de31183133aaf8, type: 3}
-      propertyPath: naranja2
-      value: 
-      objectReference: {fileID: 555527326, guid: df43b8a6ae3a49c41ad8423ffbd03724, type: 3}
-    - target: {fileID: 52609639663952316, guid: 52d28e8061e9c6a488de31183133aaf8, type: 3}
-      propertyPath: naranja3
-      value: 
-      objectReference: {fileID: 2087192811, guid: df43b8a6ae3a49c41ad8423ffbd03724, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52d28e8061e9c6a488de31183133aaf8, type: 3}
 --- !u!1001 &7202378433507664280

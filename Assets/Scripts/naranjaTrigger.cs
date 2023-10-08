@@ -20,7 +20,7 @@ public class naranjaTrigger : MonoBehaviour
     {
         if (collision.gameObject.tag == "naranja")
         {
-            Destroy(gameObject);
+            Destroy(collision.gameObject);
         }
     }
 }
