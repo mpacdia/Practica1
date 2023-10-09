@@ -11,6 +11,9 @@ TagManager:
   - personaje
   - tiempo
   - contador
+  - naranjaMala
+  - naranjaLlave
+  - puerta
   layers:
   - Default
   - TransparentFX
