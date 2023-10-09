@@ -2,17 +2,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class moverPersonaje : MonoBehaviour
 {
+    static moverPersonaje current;
+
     public float movX, movY;
     Rigidbody2D rb;
 
-    public int gestorNaranjas = 0;
+    public int gestorNaranjas;
 
-    [Header("CONTADOR NARANJAS")]
-    [SerializeField] private GameObject contadorNaranjas;
-    [SerializeField] private Sprite naranja0, naranja1, naranja2, naranja3;
+    public TMP_Text contadorNaranjas;
+   
+    public static void sumaNaranja()
+    {
+        current.gestorNaranjas++;
+        if (current.gestorNaranjas < 10) current.contadorNaranjas.text = current.gestorNaranjas.ToString();
+    }
+
+    private void Awake()
+    {
+        current = this;
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -34,35 +46,8 @@ public class moverPersonaje : MonoBehaviour
         rb.velocity = vector * 15;
     }
 
-    // Función para agarrar una naranja
-    public void AgarrarNaranja()
-    {
-        gestorNaranjas++; // Incrementa el contador de naranjas
-        actualizarContadorNaranjas(); // Actualiza la visualización del contador
-        Destroy(GameObject.FindGameObjectWithTag("Naranja")); // Destruye el objeto de la naranja agarrada
-    }
 
-
-    // Función para actualizar la visualización del contador de naranjas
-    private void actualizarContadorNaranjas()
-    {
-        if (gestorNaranjas == 0)
-        {
-            contadorNaranjas.GetComponent<Image>().sprite = naranja0;
-        }
-        else if (gestorNaranjas == 1)
-        {
-            contadorNaranjas.GetComponent<Image>().sprite = naranja1;
-        }
-        else if (gestorNaranjas == 2)
-        {
-            contadorNaranjas.GetComponent<Image>().sprite = naranja2;
-        }
-        else if (gestorNaranjas == 3)
-        {
-            contadorNaranjas.GetComponent<Image>().sprite = naranja3;
-        }
-    }
+    
 
     private void OnTriggerEnter(Collider other)
     {
