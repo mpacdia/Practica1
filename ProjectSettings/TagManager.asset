@@ -9,6 +9,8 @@ TagManager:
   - obstaculo
   - fondo
   - personaje
+  - tiempo
+  - contador
   layers:
   - Default
   - TransparentFX
